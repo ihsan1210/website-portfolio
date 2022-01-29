@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header class="container mx-auto px-7 md:px-32 py-3 border-b-2 sticky top-0">
+        <div class="flex flex-row text-lg " >
+            <a href="#" class=" basis-1/2">Logo</a>
+            <ul class=" hidden md:flex  md:basis-1/2 md:justify-between px-4">
+                <li>
+                    <a href="#home" class="navbar-btn border-b-2 border-first">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="navbar-btn  ">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="navbar-btn   ">Skills</a>
+                </li>
+                <li>
+                    <a class="navbar-btn" href="#portfolio">Portfolio</a>
+                </li>
+                <li >
+                    <a class="navbar-btn" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            
+            <div class="flex basis-1/2 justify-end md:hidden">
+                <button type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
+                    <svg viewBox="0 0 24 24" class="w-6  h-6 fill-current">
+                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                    </svg>
+                </button>
+            </div> 
+        
+        </div>
+
+        
+    </header>
+    <body>
+        <!-- Landing Page -->
+        
+        <div class=" px-7 md:px-32 container mx-auto h-screen flex flex-col md:flex-row  md:items-center " id="home">
+            <div class="flex flex-col  text-xl basis-1/2 bg-white  ">
+                <p class="md:text-5xl   font-bold text-first">Welcome To </p>
+                <p class="md:text-5xl  font-bold text-first my-2">My Website Profile</p>
+
+                <p class="text-lg text-justify  py-3">I'm a  web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me. I'm Studied at Islamic State University Of North Sumatera </p>
+
+                <button class=" px-4 mt-2 rounded-sm py-2 border border-first hover:bg-first hover:text-white transition ease-in duration-300 w-56 
+                ">
+                    <span class="text-lg"> More About Me</span>
+                    <i class="fas fa-arrow-right pl-5 text-lg "></i>                    
+                </button>
+                
+            </div>
+            <div class=" flex items-center justify-center basis-1/2 ">
+                <img class="h-full " src="img/hero-1.svg" alt="" srcset="">
+            </div>
+
+            
+            
+        </div>
+            
+        <!-- About Page -->
+        <div class="py-4 px-7 md:pt-14 container md:px-32 mx-auto md:h-screen  items-center justify-center " id="about">
+            <p class=" text-3xl pb-4 md:text-6xl font-medium   text-first  cursor-pointer  text-center hover:border-b-first  mx-auto transition duration-300 ease-in-out underline decoration-red-700 underline-offset-8 decoration-2 ">About Me
+            </p>
+            <p class="text-center text-base mt-2   md:w-2/5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum suscipit fugiat! Consequuntur hic fuga.</p>
+             
+            <div class="flex flex-col md:flex-row my-6 items-center">
+                <div class=" md:basis-1/2 ">            
+                    <div class=" max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-xl border  dark:bg-gray-800">
+                        <img class="object-cover object-center w-full h-52" src="img/poto1.jpeg" alt="avatar">
+                        
+                        <div class="px-1 py-2 bg-gray-900">
+                            <h1 class="mx-3 text-lg font-medium text-white">Web Development</h1>
+                        </div>
+
+                        <div class="px-6 py-4 ">
+                            <h1 class="text-xl font-semibold text-first dark:text-white">Muhammad Ihsan Nugraha</h1>
+
+                            <p class="text-justify  text-gray-700 dark:text-gray-400">Full Stack maker & UI / UX Designer , Love to learn about Technology (Mobile Develepment, Software Development).</p>
+                            
+                            <div class="flex items-center my-2 text-gray-700 dark:text-gray-200">
+                                <i class="text-lg text-first w-4 fas fa-university"></i>
+                                <h1 class="px-3 text-md">Universitas Islam Negeri Sumatera Utara</h1>
+                            </div>
+
+                            <div class="flex text-center  items-center my-2 text-gray-700 dark:text-gray-200">
+                                <i class="text-lg text-first  w-4 far fa-building"></i>
+                                <h1 class="px-3 text-md">Kota Binjai</h1>
+                            </div>
+
+                            <div class="flex text-center  items-center my-2 text-gray-700 dark:text-gray-200">
+                                <i class="text-lg text-first w-4 far fa-envelope"></i>                    
+                                <h1 class="px-3 text-md">ihsannugraha731@gmail.com</h1>
+                            </div>
+                        </div>
+                    </div>
+                                
+                </div>
+                <div class="py-4 md:py-0 text-center basis-1/2 md:-ml-10 md:text-justify">
+                    <h2 class="text-lg font-semibold md:text-3xl">My Name Is <span class="text-first font-medium">Muhammad Ihsan Nugraha</span></h2>
+                    <p class="my-1 text-md">I'm A Computer Science Student From The Islamic State University Of North Sumatra.</p>
+                    <div class="text-justify">
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minus eveniet, minima dolores quod nam amet et numquam, rerum non praesentium? Ea, velit iste? Magni atque nam quam reprehenderit sequi.</p>
+                        <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel tenetur corrupti, repellat, recusandae nostrum explicabo iusto libero provident officiis ex nulla sit hic quibusdam. Facilis, facere aliquid? Omnis sed dolores earum architecto rerum labore quidem iure amet temporibus accusantium.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Skills -->
+       <div class="px-7 py-4 md:px-32 container  mx-auto" id="skills">
+            <p class=" text-3xl pb-4 md:text-6xl font-medium   text-first  cursor-pointer  text-center hover:border-b-first  mx-auto transition duration-300 ease-in-out underline decoration-red-700 underline-offset-8 decoration-2 ">My Skills
+            </p>
+            <p class="text-center text-base mt-2   md:w-2/5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum suscipit fugiat! Consequuntur hic fuga.</p>
+            
+            <div class="my-5 flex flex-col md:flex-row items-center justify-evenly space-y-10 md:space-y-0 ">
+                    <div class=" w-56 h-44 py-4  flex flex-col items-center text-center  border  bg-third rounded-lg shadow-lg mx-2">
+                        <i class="fab fa-js basis-1/4 text-7xl text-first">
+                        </i>
+                        <p class="text-lg text-first font-medium">Javascript Language </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div class=" w-56 h-44 py-4  flex flex-col items-center text-center border  bg-third rounded-lg shadow-lg mx-2">
+                        <i class="fab fa-js basis-1/4 text-7xl text-first">
+                        </i>
+                        <p class="text-lg text-first font-medium">Javascript Language </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div class=" w-56 h-44 py-4  flex flex-col items-center text-center border  bg-third rounded-lg shadow-lg mx-2">
+                        <i class="fab fa-js basis-1/4 text-7xl text-first">
+                        </i>
+                        <p class="text-lg text-first font-medium">Javascript Language </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    <div class=" w-56 h-44 py-4  flex flex-col items-center text-center border  bg-third rounded-lg shadow-lg mx-2">
+                        <i class="fab fa-js basis-1/4 text-7xl text-first">
+                        </i>
+                        <p class="text-lg text-first font-medium">Javascript Language </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>                    
+
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="py-4 px-7 md:px-32 container  mx-auto" id="portfolio">
+                <p class=" text-3xl pb-4 md:text-6xl font-medium   text-first  cursor-pointer  text-center hover:border-b-first  mx-auto transition duration-300 ease-in-out underline decoration-red-700 underline-offset-8 decoration-2 ">Portfolio
+                </p>
+                <p class="text-center text-base mt-2   md:w-2/5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum suscipit fugiat! Consequuntur hic fuga.</p>
+                
+                <div class="flex space-y-4 flex-col my-4">
+                    <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row">
+                        <div class="basis-1/4  mx-2">
+                            <img class="object-cover object-center w-full h-80" src="https://picsum.photos/id/100/400/300" alt="" srcset="">
+                        </div>
+                        <div class="basis-1/2  mx-2">
+                            <img class="object-cover object-center w-full h-80" src="https://picsum.photos/id/12/400/300" alt="" srcset="">
+                        </div>
+                        <div class="basis-1/4  mx-2">
+                            <img class="object-cover object-center w-full h-80" src="https://picsum.photos/id/1033/400/300" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="flex space-y-4 md:space-y-0 flex-col md:flex-row md:my-4">
+                        <div class="basis-1/2  mx-2">
+                            <img class="object-cover object-center w-full h-80" src="https://picsum.photos/id/1029/300/300" alt="" srcset="">
+                        </div>
+                        <div class="basis-1/2  mx-2">
+                            <img class="object-cover object-center w-full h-80" src="https://picsum.photos/id/1026/200" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+       </div> 
+
+       <!-- Contact -->
+       <div class="container mx-auto px-7 py-4 md:px-32" id="contact">
+            <p class=" text-3xl pb-4 md:text-6xl font-medium   text-first  cursor-pointer  text-center hover:border-b-first  mx-auto transition duration-300 ease-in-out underline decoration-red-700 underline-offset-8 decoration-2 ">Contact
+            </p>
+            <p class="text-center text-base mt-2   md:w-2/5 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores harum suscipit fugiat! Consequuntur hic fuga.</p>
+
+            <div class="flex flex-col md:flex-row items-center my-5">
+                <div class="basis-1/2">
+                    <h1 class="text-first font-bold text-xl md:text-5xl">Get in touch</h1>
+                    <p class="text-md text-justify font-normal my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, vel delectus laborum modi alias odio rem veritatis atque magnam consequatur!</p>
+                </div>
+                <div class="basis-1/2 flex flex-col items-center">
+                    <img class="w-4/5 px-2" src="img/hero-2.svg" alt="">
+                </div>
+
+
+            </div>
+
+            <div class="flex flex-col  md:flex-row  my-2 w-full  ">
+                <div class="flex flex-col md:flex-row items-center md:basis-2/3 my-5 ">
+                    <div class=" flex flex-col md:mr-10 items-center ">
+                        <div class=" h-36 w-60 my-5 text-center flex flex-col justify-center items-center bg-third shadow-lg rounded-lg">
+                            <div class="flex justify-center items-center bg-first w-10 h-10 rounded-full  text-white">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h1 class="py-2 ">WhatsApp's</h1>
+                           
+                        </div>
+                        <div class=" h-36 w-60 my-5 text-center flex flex-col justify-center items-center bg-third shadow-lg rounded-lg">
+                            <div class="flex justify-center items-center bg-first w-10 h-10 rounded-full  text-white">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <h1 class="py-2 ">Instagram</h1>
+                           
+                        </div>
+                    </div>  
+                    <div class=" flex flex-col ">
+                        <div class=" h-36 w-60 my-5 text-center flex flex-col justify-center items-center bg-third shadow-lg rounded-lg">
+                            <div class="flex justify-center items-center bg-first w-10 h-10 rounded-full  text-white">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <h1 class="py-2 ">Phone Number</h1>
+                        </div>
+                        <div class=" h-36 w-60 my-5 text-center flex flex-col justify-center items-center bg-third shadow-lg rounded-lg">
+                            <div class="flex justify-center items-center bg-first w-10 h-10 rounded-full  text-white">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <h1 class="py-2 ">Gmail</h1>
+                        </div>
+                    </div>  
+                </div>
+                <div class="hidden md:flex basis-1/3 ml-10  my-5   ">
+
+                    <img class="w-3/5" src="img/hero-3.svg" alt="">
+                </div>
+            </div>
+       </div>
+
+    </body>
+    
+</body>
+</html>
